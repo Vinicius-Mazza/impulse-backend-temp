@@ -1,0 +1,88 @@
+{
+  "posts": [{
+    "id": 1,
+    "user": {
+      "firstname": "John",
+      "lastname": "Doe",
+      "avatar": "https://bit.ly/kent-c-dodds"
+    },
+    "content": "Hello, world!",
+    "date": "2024-09-12",
+    "likes": 10,
+    "comments": []
+  },
+  {
+    "id": 2,
+    "user": { 
+      "firstname": "Jane",
+      "lastname": "Doe",
+      "avatar": "https://bit.ly/broken-link"
+    },
+    "content": "Hello, world! 02",
+    "date": "2023-11-22",
+    "likes": 25,
+    "comments": []
+  },
+  {
+    "id": 3,
+    "user": { 
+      "firstname": "Test",
+      "lastname": "ABC",
+      "avatar": "https://bit.ly/prosper-baba"
+    },
+    "content": "Hello, world! 03",
+    "date": "2022-11-22",
+    "likes": 6,
+    "comments": []
+  },
+  {
+    "id": 4,
+    "user": {
+      "firstname": "John",
+      "lastname": "Doe",
+      "avatar": "https://bit.ly/kent-c-dodds"
+    },
+    "content": "Outro comentario de teste",
+    "date": "2024-09-12",
+    "likes": 2,
+    "comments": []
+  },
+  {
+    "id": 5,
+    "user": {
+      "firstname": "John",
+      "lastname": "Doe",
+      "avatar": "https://bit.ly/kent-c-dodds"
+    },
+    "content": "Fazendo mais um teste",
+    "date": "2024-09-12",
+    "likes": 21,
+    "comments": []
+  },
+  {
+    "id": 6,
+    "user": {
+      "firstname": "John",
+      "lastname": "Doe",
+      "avatar": "https://bit.ly/kent-c-dodds"
+    },
+    "content": "Testando a pagina mais uma vez!",
+    "date": "2024-09-12",
+    "likes": 13,
+    "comments": []
+  }],
+  "users":[{
+    "id": 1,
+    "firstname": "Test",
+    "lastname": "ABC",
+    "username": "@testabc",
+    "avatar": "https://bit.ly/dan-abramov"
+  },
+  {
+    "id": 2,
+    "firstname": "Test",
+    "lastname": "DEF",
+    "username": "@testdef",
+    "avatar": "https://bit.ly/broken-link"
+  }]
+}
