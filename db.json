@@ -1,138 +1,319 @@
 {
-  "posts": [{
-    "id": 1,
-    "user": {
-      "firstname": "John",
-      "lastname": "Doe",
-      "avatar": "https://bit.ly/kent-c-dodds"
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "firstname": "Wesley",
+        "lastname": "Murphy",
+        "avatar": "https://bit.ly/kent-c-dodds",
+        "bio": "Paixão por inovar e transformar ideias em realidade.\n#startup #empreendedor #inovação"
+      },
+      "content": [
+        {
+          "text": "Lembram quando a gente tentou fazer bolo e acabou virando uma bagunça na cozinha? Aquela foi uma tarde épica, @bethpatterson e @jane__87!\n#amizade #cozinheirosdeplantao #tbt"
+        }
+      ],
+      "date": "2024-11-12T13:37:52",
+      "likes": 10,
+      "comments": [
+        {
+          "id": 1,
+          "user": {
+            "firstname": "Bethany",
+            "lastname": "Patterson",
+            "username": "bethpatterson",
+            "bio": "Mochileira de coração e cozinheira por paixão. A natureza me alimenta e a cozinha me inspira. ❤️",
+            "avatar": "https://randomuser.me/api/portraits/women/13.jpg"
+          },
+          "content": [
+            {
+              "text": "Nunca mais esqueço aquela farinha voando pra todo lado! Mas foi a melhor bagunça da minha vida kkkkkkkkk"
+            }
+          ],
+          "date": "2024-11-12T13:37:52",
+          "likes": 3
+        },
+        {
+          "id": 2,
+          "user": {
+            "firstname": "Jane",
+            "lastname": "Hall",
+            "username": "jane__87",
+            "bio": "Perdida entre montanhas e sabores. ⛰️",
+            "avatar": "https://randomuser.me/api/portraits/women/87.jpg"
+          },
+          "content": [
+            {
+              "text": "Aquele bolo era uma obra de arte... moderna!"
+            }
+          ],
+          "date": "2024-11-12T13:37:52",
+          "likes": 3
+        }
+      ]
     },
-    "content": "Hello, world!",
-    "date": "2024-09-12",
-    "likes": 10,
-    "comments": []
-  },
-  {
-    "id": 2,
-    "user": { 
-      "firstname": "Jane",
-      "lastname": "Doe",
+    {
+      "id": 2,
+      "user": {
+        "firstname": "Jane",
+        "lastname": "Hall",
+        "avatar": "https://randomuser.me/api/portraits/women/87.jpg",
+        "bio": "Perdida entre montanhas e sabores. ⛰️"
+      },
+      "content": [
+        {
+          "text": "Nada como se conectar com a natureza e explorar novos lugares. Quem aí já fez uma trilha inesquecível? Me conta qual foi a sua experiência!\n#hiking #natureza #aventura"
+        },
+        {
+          "image": [
+            { "url": "http://localhost:3001/assets/images/posts/post02.jpg" },
+            { "url": "http://localhost:3001/assets/images/posts/post03.jpg" },
+            { "url": "http://localhost:3001/assets/images/posts/post04.jpg" }
+          ]
+        }
+      ],
+      "date": "2023-11-22T09:17:22",
+      "likes": 25,
+      "comments": []
+    },
+    {
+      "id": 3,
+      "user": {
+        "firstname": "Oliver",
+        "lastname": "Stewart",
+        "avatar": "https://bit.ly/prosper-baba",
+        "bio": "Apaixonado por descobrir novas culturas e paisagens. Acredito que viajar é a melhor forma de aprender e crescer.\n#viajante #mochileiro #cultura"
+      },
+      "content": [
+        {
+          "text": "A Suíça me encantou com suas paisagens de tirar o fôlego! As montanhas cobertas de neve, os lagos cristalinos e os vilarejos charmosos criam um cenário mágico que parece ter saído de um conto de fadas. Cada curva da estrada revelava uma nova vista mais deslumbrante que a anterior."
+        },
+        {
+          "image": [
+            { "url": "http://localhost:3001/assets/images/posts/post05.jpg" },
+            { "url": "http://localhost:3001/assets/images/posts/post06.jpg" },
+            { "url": "http://localhost:3001/assets/images/posts/post07.jpg" },
+            { "url": "http://localhost:3001/assets/images/posts/post08.jpg" },
+            { "url": "http://localhost:3001/assets/images/posts/post09.jpg" },
+            { "url": "http://localhost:3001/assets/images/posts/post10.jpg" },
+            { "url": "http://localhost:3001/assets/images/posts/post11.jpg" }
+          ]
+        }
+      ],
+      "date": "2022-11-22T16:07:15",
+      "likes": 6,
+      "comments": []
+    },
+    {
+      "id": 4,
+      "user": {
+        "firstname": "Wesley",
+        "lastname": "Murphy",
+        "avatar": "https://bit.ly/kent-c-dodds",
+        "bio": "Paixão por inovar e transformar ideias em realidade.\n#startup #empreendedor #inovação"
+      },
+      "content": [
+        {
+          "text": "Finalzinho de semana pede aquela trilha sonora pra relaxar e recarregar as energias. Qual música vocês não abrem mão de ouvir nos dias off? Compartilha aí nos comentários pra gente montar a playlist perfeita!"
+        }
+      ],
+      "date": "2024-09-28T20:38:00",
+      "likes": 2,
+      "comments": []
+    },
+    {
+      "id": 5,
+      "user": {
+        "firstname": "Daniel",
+        "lastname": "Hill",
+        "avatar": "https://randomuser.me/api/portraits/men/76.jpg",
+        "bio": "Professor de Geografia, apaixonado por desvendar os mistérios do planeta.\n#geografia #ensinando #aprendizado"
+      },
+      "content": [
+        {
+          "text": "A gratidão é como um músculo: quanto mais exercitamos, mais forte ele fica. Ao focarmos nas coisas boas da vida, atraímos mais positividade e felicidade. Lembro-me de um momento em que estava passando por uma fase difícil. Havia perdido o emprego e estava me sentindo perdido e sem esperança. Um dia, enquanto caminhava pelo parque, me sentei em um banco e comecei a observar a natureza ao meu redor. As árvores frondosas, os pássaros cantando e o sol quente em minha pele me proporcionaram uma sensação de paz que há muito não sentia. Naquele momento, comecei a listar mentalmente todas as coisas pelas quais eu era grato: minha saúde, minha família, os amigos que me apoiavam... Ao fazer isso, percebi que, mesmo em meio às dificuldades, havia muito por que agradecer. Desde então, faço questão de praticar a gratidão diariamente, seja através de um diário, meditação ou simplesmente agradecendo mentalmente pelas pequenas coisas. E você, qual foi o último momento em que sentiu gratidão? Compartilhe nos comentários!"
+        }
+      ],
+      "date": "2024-09-29T10:26:58",
+      "likes": 21,
+      "comments": []
+    },
+    {
+      "id": 6,
+      "user": {
+        "firstname": "Thomas",
+        "lastname": "Hughes",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg",
+        "bio": "Gamer hardcore, apaixonado por soulslikes e RPGs. Quando não estou explorando novos mundos, estou maratonando animes e discutindo teorias da conspiração da cultura pop.\n#gamer #anime #teoriadasconspiracao"
+      },
+      "content": [
+        {
+          "text": "Você é daqueles que vivem antenados nas últimas novidades do mundo geek? Seja para ficar por dentro dos lançamentos de games, séries, filmes ou quadrinhos, ter fontes confiáveis é essencial. Pensando nisso, separei alguns sites que todo geek deveria conhecer: \n- https://flowgames.gg/\n- https://www.einerd.com.br/\nE aí, qual desses sites você já conhece? Tem alguma outra dica para a galera geek? Compartilhe nos comentários!\n#geek #nerd #noticias #games #series #filmes #quadrinhos #culturapop"
+        }
+      ],
+      "date": "2024-09-30T17:00:52",
+      "likes": 13,
+      "comments": []
+    },
+    {
+      "id": 7,
+      "user": {
+        "firstname": "Hannah",
+        "lastname": "Walker",
+        "avatar": "https://randomuser.me/api/portraits/women/50.jpg",
+        "bio": "Trilhas, música e boas vibrações.\n#natureza #hiking #musica"
+      },
+      "content": [
+        {
+          "text": "Que tal uma pausa para apreciar a beleza da vida marinha? O novo vídeo da BBC é simplesmente deslumbrante! Prepare os olhos para cores vibrantes e paisagens subaquáticas que vão te levar para outro mundo.\n#natureza #mar #vidaanimal #bbc #documentario"
+        },
+        {
+          "video": {
+            "url": "http://localhost:3001/assets/videos/posts/postvideo01.mp4"
+          }
+        }
+      ],
+      "date": "2024-09-30T20:00:05",
+      "likes": 22,
+      "comments": []
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Stephen",
+      "lastname": "Hughes",
+      "username": "steviee",
+      "bio": "Programador full-stack apaixonado por criar interfaces intuitivas e código limpo. Quando não estou na frente do computador, você pode me encontrar explorando novas tecnologias e tomando um café bem forte. ☕ #tech #coding #javascript #react #nodejs",
+      "avatar": "https://bit.ly/dan-abramov"
+    },
+    {
+      "id": 2,
+      "firstname": "Frederick",
+      "lastname": "Cole",
+      "username": "freddiecole",
+      "bio": "Apaixonado por levantar ferro e transformar o corpo. Acredito que a mente forte constrói um corpo ainda mais forte. #musculação #treino #menteesaudavel",
       "avatar": "https://bit.ly/broken-link"
     },
-    "content": "Hello, world! 02",
-    "date": "2023-11-22",
-    "likes": 25,
-    "comments": []
-  },
-  {
-    "id": 3,
-    "user": { 
-      "firstname": "Oliver",
-      "lastname": "Stewart",
-      "avatar": "https://bit.ly/prosper-baba"
-    },
-    "content": "Hello, world! 03",
-    "date": "2022-11-22",
-    "likes": 6,
-    "comments": []
-  },
-  {
-    "id": 4,
-    "user": {
-      "firstname": "John",
-      "lastname": "Doe",
-      "avatar": "https://bit.ly/kent-c-dodds"
-    },
-    "content": "Outro comentario de teste",
-    "date": "2024-09-28",
-    "likes": 2,
-    "comments": []
-  },
-  {
-    "id": 5,
-    "user": {
+    {
+      "id": 3,
       "firstname": "Daniel",
       "lastname": "Hill",
+      "username": "danielhill",
+      "bio": "Professor de Geografia, apaixonado por desvendar os mistérios do planeta. #geografia #ensinando #aprendizado",
       "avatar": "https://randomuser.me/api/portraits/men/76.jpg"
     },
-    "content": "Fazendo mais um teste",
-    "date": "2024-09-29",
-    "likes": 21,
-    "comments": []
-  },
-  {
-    "id": 6,
-    "user": {
-      "firstname": "John",
-      "lastname": "Doe",
-      "avatar": "https://bit.ly/kent-c-dodds"
-    },
-    "content": "Testando a pagina mais uma vez!",
-    "date": "2024-09-30",
-    "likes": 13,
-    "comments": []
-  }],
-  
-  "users": [{
-    "id": 1,
-    "firstname": "Test",
-    "lastname": "ABC",
-    "username": "@testabc",
-    "avatar": "https://bit.ly/dan-abramov"
-  },
-  {
-    "id": 2,
-    "firstname": "Test",
-    "lastname": "DEF",
-    "username": "@testdef",
-    "avatar": "https://bit.ly/broken-link"
-  }],
-
-  "stories": [{
-    "id": 1,
-    "user": {
-      "firstname": "John",
-      "lastname": "Doe",
-      "avatar": "https://bit.ly/kent-c-dodds"
-    },
-    "date": "2024-09-30",
-    "stories": [{
-      "content": "http://localhost:3001/assets/images/storie01.jpg"
-    }]
-  },
-  {
-    "id": 2,
-    "user": {
-      "firstname": "Oliver",
-      "lastname": "Stewart",
-      "avatar": "https://bit.ly/prosper-baba"
-    },
-    "date": "2024-09-29",
-    "stories": [{
-      "content": "http://localhost:3001/assets/images/storie02.jpg"
-    }]
-  },
-  {
-    "id": 3,
-    "user": {
+    {
+      "id": 4,
       "firstname": "Bethany",
       "lastname": "Patterson",
+      "username": "bethpatterson",
+      "bio": "Mochileira de coração e cozinheira por paixão. A natureza me alimenta e a cozinha me inspira. ❤️",
       "avatar": "https://randomuser.me/api/portraits/women/13.jpg"
     },
-    "date": "2024-10-01",
-    "stories": [{
-      "content": "http://localhost:3001/assets/images/storie03.jpg"
-    }]
-  },
-  {
-    "id": 4,
-    "user": {
+    {
+      "id": 5,
       "firstname": "Hannah",
       "lastname": "Walker",
+      "username": "haniwalker",
+      "bio": "Trilhas, música e boas vibrações.\n#natureza #hiking #musica",
       "avatar": "https://randomuser.me/api/portraits/women/50.jpg"
     },
-    "date": "2024-10-01",
-    "stories": [{
-      "content": "http://localhost:3001/assets/images/storie04.jpg"
-    }]
-  }]
+    {
+      "id": 6,
+      "firstname": "Jane",
+      "lastname": "Hall",
+      "username": "jane__87",
+      "bio": "Perdida entre montanhas e sabores. ⛰️",
+      "avatar": "https://randomuser.me/api/portraits/women/87.jpg"
+    }
+  ],
+
+  "stories": [
+    {
+      "id": 1,
+      "user": {
+        "firstname": "Wesley",
+        "lastname": "Murphy",
+        "avatar": "https://bit.ly/kent-c-dodds"
+      },
+      "date": "2024-09-30",
+      "stories": [
+        {
+          "content": "http://localhost:3001/assets/images/stories/storie01.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user": {
+        "firstname": "Oliver",
+        "lastname": "Stewart",
+        "avatar": "https://bit.ly/prosper-baba"
+      },
+      "date": "2024-09-29",
+      "stories": [
+        {
+          "content": "http://localhost:3001/assets/images/stories/storie02.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user": {
+        "firstname": "Bethany",
+        "lastname": "Patterson",
+        "avatar": "https://randomuser.me/api/portraits/women/13.jpg"
+      },
+      "date": "2024-10-01",
+      "stories": [
+        {
+          "content": "http://localhost:3001/assets/images/stories/storie03.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "user": {
+        "firstname": "Hannah",
+        "lastname": "Walker",
+        "avatar": "https://randomuser.me/api/portraits/women/50.jpg"
+      },
+      "date": "2024-10-01",
+      "stories": [
+        {
+          "content": "http://localhost:3001/assets/images/stories/storie04.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "user": {
+        "firstname": "Jane",
+        "lastname": "Hall",
+        "avatar": "https://randomuser.me/api/portraits/women/87.jpg"
+      },
+      "date": "2024-10-01",
+      "stories": [
+        {
+          "content": "http://localhost:3001/assets/images/stories/storie05.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "user": {
+        "firstname": "Thomas",
+        "lastname": "Hughes",
+        "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      "date": "2024-10-01",
+      "stories": [
+        {
+          "content": "http://localhost:3001/assets/images/stories/storie06.jpg"
+        }
+      ]
+    }
+  ]
 }
